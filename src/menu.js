@@ -1,12 +1,6 @@
-
-
-function HomePage(){
-
-    
+export function menuPage(){
     const content = document.querySelector("#content")
-
-
-    const homeButton = document.querySelector("homeButton")
+    
     function display(){
 
          content.textContent = ''
@@ -14,12 +8,10 @@ function HomePage(){
     const textBox = document.createElement('div');
 
 
-    textBox.textContent  = "Looking for the best sushi in town? You have come to just the right place!"
+    textBox.textContent  = "Menu";
     textBox.classList.add("textBox")
         content.append(textBox)    
 
     }
     return display;
 }
-
-export {HomePage}
