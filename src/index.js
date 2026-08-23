@@ -1,2 +1,15 @@
+import "./style.css"
+import { HomePage } from "./home.js"
 
-console.log("Hello world welcome to my fucking restaurant")
+
+
+
+function restaurant(){
+    const displayHome = HomePage();
+
+
+    displayHome();
+}
+
+
+restaurant()
